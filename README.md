@@ -7,10 +7,11 @@ http://spellathon.sourceforge.net/
 This puzzle.
 
 # Installation
-make sure python interpretor 3.8 or above is installed on your system (its not tested for lower versions but it should work for any python 3.x)
-download and unzip this repository via the "Download" button, or clone it using git
-open the terminal or command prompt and go into the folder where the program is using the cd command
-once you are in the folder, use python3 main.py or python main.py to run the program
+1. Make sure python interpretor 3.8 or above is installed on your system (its not tested for lower versions but it should work for any python 3.x)
+2. Download and unzip this repository via the "Download" button on GitHub, or clone it using `git clone https://github.com/PreciousWarrior/spellathon-solver/`
+3. Open the terminal or command prompt
+4. Go into the folder where all the files of this repository are using the cd command, for example on Windows-: `cd C:\Users\User\Downloads\spellathon-solver`
+5. Once you are in the folder, use `python3 main.py` or `python main.py` to run the program. (Make sure python is added to PATH if it doesn't work)
 
 # Config
 Open the python file in a text editor
@@ -27,7 +28,7 @@ Pretty self explanatory. Do what the program asks you to do.
 Open an issue
 
 # wHeRE aRe tHe BinAriEs
-im to lazy
+im too lazy
 
 # Credits
 Lesswords dictionary - https://sourceforge.net/projects/spellathon/ (if you want me to remove that dictionary from this repo i can i was too lazy to read the license)
