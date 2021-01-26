@@ -32,7 +32,9 @@ im too lazy
 
 # Credits
 Lesswords dictionary - https://sourceforge.net/projects/spellathon/ (if you want me to remove that dictionary from this repo i can i was too lazy to read the license)
-words dictionary - https://github.com/dwyl/english-words/
+
+Words dictionary - https://github.com/dwyl/english-words/
+
 Pycharm Forever
 
 
