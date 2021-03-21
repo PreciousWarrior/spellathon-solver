@@ -26,4 +26,16 @@ def main(dictionary, min_len, pot):
             print(word)
 
 
-main("lesswords.txt", 3, "dcamteiut")
+pot = input("Please enter the pot of words that you would like to know a solution for: ")
+pot = ''.join([i for i in pot if i.isalpha()])
+pot = pot.lower()
+
+try:
+    min_len = int(input("Enter the minimum length a word can have: "))
+    if min_len <= 0:
+        raise ValueError()
+except ValueError:
+    print("Value wasn't recognized. Defaulting to '3'. ")
+    min_len=3
+
+main("lesswords.txt", min_len, pot)
