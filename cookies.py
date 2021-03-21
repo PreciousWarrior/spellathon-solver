@@ -6,13 +6,12 @@ def is_match(pot, word_to_check, min_len):
 
     if len(pot) < len(word_to_check):
         return False
-    
     word_to_check = ''.join(sorted(word_to_check))
 
     for char in word_to_check:
         if char not in pot:
             return False
-        pot = pot.replace(char, '')
+        pot = pot.replace(char, '', 1)
         
     return True
     
